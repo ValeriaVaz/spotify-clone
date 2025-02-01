@@ -1,0 +1,16 @@
+:root{
+    /*FONT*/
+    --font-dm-sans:"DM Sans", sans-serif;
+
+    /*COLORS*/
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0, 0, 0, 0.7);
+    --color-main: #000000;
+    --secondary-color:#ffffff;
+    --tertiary-color:#121212;
+    --quaternary-color: #b3b3b3;
+    --quintenary-color:#242424;
+    --sextant-color:#878787;
+    --footer-color: linear-gradient(to right,#AD2997, #855ABF, #5691E0 );
+    
+}
