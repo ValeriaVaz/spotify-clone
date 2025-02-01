@@ -169,15 +169,16 @@ body{
 }
 
 .disclaimer-premium{
+    margin: 0.5em;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--footer-color);
-    padding: 15px 40px;
+    background: var( --footer-color);
+    padding: 10px 35px;
     display: flex;
     justify-content: space-between;
-    margin: 5px;
+    font-family: var(--font-dm-sans);
 }
 
 .disclaimer-premium .text{
@@ -187,15 +188,16 @@ body{
 .disclaimer-premium .disclaimer-premium__title{
     color: var(--secondary-color);
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    padding-top:3px ;
 }
 
 .disclaimer-premium .disclaimer-premium__subtitle{
     color: var(--secondary-color);
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .disclaimer-premium button{
